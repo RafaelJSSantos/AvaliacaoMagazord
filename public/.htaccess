@@ -1,0 +1,6 @@
+Options -Indexes
+
+RewriteEngine On 
+
+RewriteRule ^([A-Za-zÀ-ú0-9_-]+)/?$ index.php?pg=$1&%{QUERY_STRING} [NC]
+RewriteRule ^([A-Za-zÀ-ú0-9_-]+)/?$ index.php?%{QUERY_STRING} [NC]

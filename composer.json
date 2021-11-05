@@ -1,0 +1,23 @@
+{
+    "name": "rafael/magazord",
+    "description": "Avaliacao Magazord",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Rafael\\Magazord\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Rafael J. S. Santos",
+            "email": "maxirafa.rafael@gmail.com"
+        }
+    ],
+    "require": {
+        "doctrine/orm": "^2.5",
+        "symfony/event-dispatcher": "^3.4",
+        "symfony/lock": "^3.4",
+        "symfony/process": "^3.4",
+        "doctrine/doctrine-bundle": "^1.10"
+    }
+}
